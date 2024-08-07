@@ -69,14 +69,22 @@
 
 Для установки и запуска приложения выполните следующие шаги:
 
-1. **Склонируйте репозиторий:**
-    git clone https://github.com/carevvv/Topix.git
+# Клонируйте репозиторий
+```bash
+git clone https://github.com/yourusername/Topix.git
+```
 
-2. **Перейдите в директорию проекта:**
-    cd Topix
+# Перейдите в директорию проекта
+```bash
+cd Topix
+```
 
-3. **Установите необходимые зависимости:**
-    pip install -r requirements.txt
+# Установите зависимости
+```bash
+pip install -r requirements.txt
+```
 
-4. **Запустите приложение:**
-    python main.py
+# Запустите скрипт
+```bash
+python main.py
+```
