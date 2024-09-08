@@ -70,13 +70,22 @@ A mobile application can be developed for convenience on smartphones and tablets
 To install and run the application, follow these steps:
 
 # Clone the repository
+```bash
 git clone https://github.com/yourusername/Topix.git
+```
 
 # Navigate to the project directory
+```bash
 cd Topix
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # Run the script
+```bash
 python main.py
+```
+
