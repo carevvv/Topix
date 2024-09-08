@@ -1,90 +1,82 @@
-**# Topix**
+# Topix
 
-**## Описание проекта**
+## Project Description
 
-Идея моего проекта заключается в создании инструмента для удобного выбора фильма на вечер. Этот инструмент будет представлять собой базу данных из примерно 100 фильмов, а также приложение, написанное на PyQt.
+The idea of my project is to create a tool for convenient movie selection for the evening. This tool will consist of a database of approximately 100 films and an application written in PyQt.
 
-Пользователь будет заходить в приложение и выбирать фильмы по различным критериям, таким как жанр, год создания, хронометраж, режиссер и страна. Приложение будет использовать эти критерии для подбора нескольких фильмов, которые будут соответствовать запросу пользователя.
+Users will access the application and select films based on various criteria such as genre, release year, duration, director, and country. The application will use these criteria to suggest several films that match the user's request.
 
-**## Задачи, которые решает проект**
+## Objectives Solved by the Project
 
-Проект помогает пользователям быстро и легко выбрать фильм на вечер, соответствующий их интересам.
+The project helps users quickly and easily choose a movie for the evening that matches their interests.
 
-**## Подробная информация**
+## Detailed Information
 
-**### База данных**
+### Database
 
-База данных будет содержать информацию о следующих критериях фильма:
-- Название
-- Жанр
-- Год создания
-- Хронометраж
-- Режиссер
-- Страна
+The database will contain information based on the following film criteria:
+- Title
+- Genre
+- Release Year
+- Duration
+- Director
+- Country
 
-**### Приложение**
+### Application
 
-Приложение будет иметь простой и интуитивно понятный интерфейс. Пользователь сможет выбирать фильмы, используя различные фильтры, такие как:
-- Жанр
-- Год создания
-- Хронометраж
-- Режиссер
-- Страна
+The application will have a simple and intuitive interface. Users will be able to select films using various filters, such as:
+- Genre
+- Release Year
+- Duration
+- Director
+- Country
 
-Приложение будет использовать алгоритмы машинного обучения для подбора фильмов, которые будут соответствовать запросу пользователя.
+The application will use machine learning algorithms to select films that match the user's request.
 
-**### Преимущества проекта**
+### Project Advantages
 
-- Экономия времени и усилий при выборе фильма на вечер.
-- Удобный и интуитивно понятный интерфейс.
-- Высокое качество рекомендаций благодаря использованию алгоритмов машинного обучения.
+- Saves time and effort in choosing a movie for the evening.
+- Convenient and intuitive interface.
+- High recommendation quality due to the use of machine learning algorithms.
 
-**## Возможности для развития проекта**
+## Opportunities for Project Development
 
-**### Расширение базы данных**
+### Expanding the Database
 
-Можно добавить информацию о большем количестве фильмов, чтобы у пользователей был более широкий выбор.
+More films can be added to provide users with a wider choice.
 
-**### Добавление дополнительных критериев выбора**
+### Adding Additional Selection Criteria
 
-Можно добавить новые критерии выбора, такие как:
-- Оценка фильма
-- Рейтинг
-- Наличие/отсутствие дубляжа
-- Наличие/отсутствие субтитров
+New selection criteria can be added, such as:
+- Movie Rating
+- Score
+- Availability of Dubbing
+- Availability of Subtitles
 
-**### Разработка мобильного приложения**
+### Development of a Mobile Application
 
-Можно разработать мобильное приложение для удобства использования на смартфонах и планшетах.
-
----
-
-**## Ссылки**
-
-- [Дизайн проекта на Canva](https://www.canva.com/design/DAFyuADAlME/39utKDEx9rdLtL3Me9OSlg/edit)
+A mobile application can be developed for convenience on smartphones and tablets.
 
 ---
 
-**## Установка и запуск**
+## Links
 
-Для установки и запуска приложения выполните следующие шаги:
+- [Project Design on Canva](https://www.canva.com/design/DAFyuADAlME/39utKDEx9rdLtL3Me9OSlg/edit)
 
-# Клонируйте репозиторий
-```bash
+---
+
+## Installation and Running
+
+To install and run the application, follow these steps:
+
+# Clone the repository
 git clone https://github.com/yourusername/Topix.git
-```
 
-# Перейдите в директорию проекта
-```bash
+# Navigate to the project directory
 cd Topix
-```
 
-# Установите зависимости
-```bash
+# Install dependencies
 pip install -r requirements.txt
-```
 
-# Запустите скрипт
-```bash
+# Run the script
 python main.py
-```
